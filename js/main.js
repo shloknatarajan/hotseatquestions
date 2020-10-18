@@ -23,11 +23,11 @@ var hotseatquestions = [
     "What will your gravestone say?",
     "What's your favorite pick up line?",
     "What instantly makes you horny?",
-    "What's your favorite sex position?",
+    "What's your favorite position?",
     "When's the last time your dick got direct sunlight?",
     "What's your opinion on eating ass?",
     "When's the last time you jerked off?",
-    "What's the hottest non-sexual thing someone's ever done to you?"
+    "What's the hottest non-sexual thing someone's ever done to you?",
 ];
 
 var redditquestions = [
@@ -59,10 +59,11 @@ var redditquestions = [
     "If you had to choose a song to dance to right now what would it be?",
     "What's your favorite guilty pleasure?",
     "What do you do when you feel burnt out?",
+    "What's something you're ashamed of yourself for?",
+    "What's something you liked but gave up because it wasn't cool?"
 ];
 
 var createyourown = [
-    "Create your own card. Ask the other person anything",
     "Create your own card. Ask the other person anything",
     "Create your own card. Ask the other person anything",
     "Create your own card. Ask the other person anything",
