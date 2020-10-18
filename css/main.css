@@ -38,6 +38,7 @@ body {
     margin: 20px;
     padding: 15px 10px 15px;
     text-align: center;
+    vertical-align: middle;
 
 }
 
@@ -104,10 +105,6 @@ body {
         height: 175px;
         width: 125px;
         margin: 10px;
-    }
-
-    .card h3 {
-        font-size: 1.2rem;
     }
 
     .allcards {
