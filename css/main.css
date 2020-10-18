@@ -6,6 +6,23 @@ body {
     width: 100%;
     text-align: center;
     padding-top: 5%;
+    display: inline-block;
+}
+
+#welcometext {
+    position: relative;
+    display: inline-block;
+}
+
+.emoji1 {
+    position: absolute;
+    left: -50px;
+}
+
+.emoji2 {
+    position: absolute;
+    right: -50px;
+    top: 0;
 }
 
 .allcards {
@@ -34,6 +51,20 @@ body {
     border-radius: 10px;
     border: 2px black solid;
     padding: 2px;
+}
+
+#shuffle {
+    border: none;
+    outline: none;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 32px;
+    border-radius: 4px;
+    color: #fff;
+    background-color: rgb(44, 44, 44);
 }
 
 @media screen and (max-width: 912px) {
@@ -68,16 +99,45 @@ body {
     }
 }
 
-#shuffle {
-    border: none;
-    outline: none;
-    font-size: 13px;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    display: inline-block;
-    padding: 10px 32px;
-    border-radius: 4px;
-    color: #fff;
-    background-color: rgb(44, 44, 44);
+@media screen and (max-width: 480px) {
+    .card {
+        height: 175px;
+        width: 125px;
+        margin: 10px;
+    }
+
+    .card h3 {
+        font-size: 1.2rem;
+    }
+
+    .allcards {
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    #welcometext {
+        position: relative;
+        display: inline-block;
+        width: 80%;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    #nestedwelcometext {
+        width: 80%;
+        margin: auto;
+    }
+    
+    .emoji1 {
+        position: absolute;
+        left: -30px;
+        top: 15px;
+    }
+    
+    .emoji2 {
+        position: absolute;
+        right: -30px;
+        top: 15px;
+    }
 }
+
