@@ -118,7 +118,7 @@ function shuffle() {
     resizeText();
 }
 
-console.log("your cute jeans");
+console.log("https://www.youtube.com/watch?v=pyUxWCtrf8U");
 
 
 
